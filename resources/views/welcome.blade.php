@@ -59,7 +59,7 @@
                     </form>
                 </div>
                 <div class="col-md-6">
-                    <img src="{{ asset('images/my-image.jpg') }}" alt="My Image" class="img-fluid">
+                    <img src="https://pixlr.com/images/index/remove-bg.webp" alt="My Image" class="img-fluid">
                 </div>
             </div>
         </div>
