@@ -15,4 +15,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [controller11::class, 'store']);
+Route::get('/', function () {
+    return view('welcome');
+});
