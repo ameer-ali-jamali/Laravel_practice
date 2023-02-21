@@ -62,6 +62,7 @@
                     <img src="https://pixlr.com/images/index/remove-bg.webp" alt="My Image" class="img-fluid">
                 </div>
             </div>
+            
         </div>
 
         <!-- Include jQuery and Bootstrap JS -->
