@@ -55,7 +55,7 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Enter your password">
                         </div>
-                        <button type="submit" onclick="submitForm()" class="btn btn-primary">Submit</button>
+                        <button type="submit" onclick="submitForm()" class="btn btn-primary mt-4">Submit</button>
                     </form>
                 </div>
                 <div class="col-md-6">
