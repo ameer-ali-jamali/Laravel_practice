@@ -55,7 +55,7 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Enter your password">
                         </div>
-                        <button type="submit" onclick="submitForm('my-form')">Submit</button>
+                        <button type="submit" onclick="submitForm()" class="btn btn-primary">Submit</button>
                     </form>
                 </div>
                 <div class="col-md-6">
@@ -71,12 +71,12 @@
         <script>
             function submitForm(formId) {
             // Get the form element
-            var form = document.getElementById(formId);
+            // var form = document.getElementById(formId);
 
-            // Submit the form
-            form.submit();
+            // // Submit the form
+            // form.submit();
 
-            // Execute your command (e.g. using AJAX)
+            // // Execute your command (e.g. using AJAX)
             // ...
 
             // Display the alert
