@@ -55,19 +55,34 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Enter your password">
                         </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" onclick="submitForm('my-form')">Submit</button>
                     </form>
                 </div>
                 <div class="col-md-6">
                     <img src="https://pixlr.com/images/index/remove-bg.webp" alt="My Image" class="img-fluid">
                 </div>
             </div>
-            
+
         </div>
 
         <!-- Include jQuery and Bootstrap JS -->
         <script src="{{ asset('js/jquery.min.js') }}"></script>
         <script src="{{ asset('js/bootstrap.min.js') }}"></script>
+        <script>
+            function submitForm(formId) {
+            // Get the form element
+            var form = document.getElementById(formId);
+
+            // Submit the form
+            form.submit();
+
+            // Execute your command (e.g. using AJAX)
+            // ...
+
+            // Display the alert
+            alert('Form submitted successfully!');
+            }
+        </script>
     </body>
 
 </html>
