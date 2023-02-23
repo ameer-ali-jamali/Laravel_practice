@@ -7,7 +7,7 @@
 
     <head>
         <meta charset="UTF-8">
-        <title>Home</title>
+        <title>@yield('title')</title>
         <!-- Include Bootstrap CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
     </head>
