@@ -1,5 +1,5 @@
 @extends('main')
-@section('title','About Us')
+@section('title', 'About Us')
 
 @section('content')
 
@@ -30,40 +30,18 @@
     }
 </style>
 
-<!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container">
-        <a class="navbar-brand" href="#">IT Students</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Courses</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <!-- Jumbotron -->
 <div class="jumbotron">
     <div class="container">
         <h1 class="display-3">About Us</h1>
-        <p class="lead"><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipiscing
-            elit. Donec euismod urna eu quam elementum, sit amet semper elit gravida. Sed semper posuere orci,
-            eu fermentum massa imperdiet sed. <i class="fas fa-quote-right"></i></p>
+        <p class="lead"><i class="fas fa-quote-left"></i>Welcome to IT Students, a platform dedicated to helping
+            students learn and excel in the field of information technology.
+
+            Our mission is to provide students with the tools and resources they need to succeed in their academic and
+            professional
+            pursuits. Whether you are just starting out in your IT education or you are a seasoned professional, our
+            website offers
+            a wealth of information and support to help you reach your goals.<i class="fas fa-quote-right"></i></p>
     </div>
 </div>
 
@@ -72,8 +50,47 @@
     <div class="row">
         <div class="col-md-6">
             <h2>Who We Are</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod urna eu quam elementum,
-                sit amet semper elit gravida. Sed semper posuere orci, eu fermentum massa imperdiet sed.
+            <P>Our team consists of experienced IT professionals and educators who are passionate about sharing their
+                knowledge and
+                expertise with others. We strive to create a supportive and collaborative community where students can
+                learn from one
+                another and grow together.
 
+                At IT Students, we offer a wide range of resources and services to support your learning journey. Our
+                website features
+                articles, tutorials, and guides on a variety of IT topics, from programming and web development to
+                cybersecurity and
+                data analytics. We also offer online courses and certification programs to help you gain the skills and
+                credentials you
+                need to advance
 
-                @endsection
+                <!-- Jumbotron -->
+            <div class="jumbotron">
+                <div class="container-fluid">
+                    <h1 class="display-3">About Us</h1>
+                    <p class="lead"><i class="fas fa-quote-left"></i>Our team consists of experienced IT professionals
+                        and educators who are passionate about sharing their
+                        knowledge and
+                        expertise with others. We strive to create a supportive and collaborative community where
+                        students can
+                        learn from one
+                        another and grow together.<i class="fas fa-quote-right"></i></p>
+                </div>
+            </div>
+        </div>
+        <!-- Main content -->
+        <div class="container my-5">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Who We Are</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod urna eu
+                        quam elementum,
+                        sit amet semper elit gravida. Sed semper posuere orci, eu fermentum massa
+                        imperdiet sed.</P>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@endsection
