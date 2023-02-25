@@ -28,7 +28,7 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="home">Home</a>
+                            <a class="nav-link" href="/">Home</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="about">About</a>
@@ -54,10 +54,10 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-6">
-                        <p>&copy; 2023 My Website</p>
+                        <p>&copy; 2023 Ameer Ali</p>
                     </div>
                     <div class="col-md-6 text-md-end">
-                        <p>Powered by Bootstrap</p>
+                        <p>Jt Students</p>
                     </div>
                 </div>
             </div>
