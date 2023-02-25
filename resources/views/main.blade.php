@@ -26,13 +26,13 @@
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="/home">Home</a>
+                            <a class="nav-link" href="home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/about">About</a>
+                            <a class="nav-link" href="about">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="/contact">Contact</a>
+                            <a class="nav-link" href="contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -40,6 +40,46 @@
         </nav>
 
         @yield('content')
+
+
+
+
+
+
+
+
+
+        <section>
+            <footer class="bg-dark text-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h5>About Us</h5>
+                            <p>We are a company dedicated to providing the best products and services to our customers.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Links</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Products</a></li>
+                                <li><a href="#">Services</a></li>
+                                <li><a href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-3">
+                            <h5>Follow Us</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
+                                <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </section>
 
 
     </body>
