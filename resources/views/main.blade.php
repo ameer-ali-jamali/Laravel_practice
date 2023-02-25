@@ -11,6 +11,8 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
         </script>
+        <!-- Font Awesome JS -->
+        <script src="https://kit.fontawesome.com/0000000000.js" crossorigin="anonymous"></script>
     </head>
 
     <body>
@@ -48,38 +50,18 @@
 
 
 
-
-        <section>
-            <footer class="bg-dark text-light">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <h5>About Us</h5>
-                            <p>We are a company dedicated to providing the best products and services to our customers.
-                            </p>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Links</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Products</a></li>
-                                <li><a href="#">Services</a></li>
-                                <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-md-3">
-                            <h5>Follow Us</h5>
-                            <ul class="list-unstyled">
-                                <li><a href="#"><i class="fab fa-facebook fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-instagram fa-lg"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin fa-lg"></i></a></li>
-                            </ul>
-                        </div>
+        <footer class="bg-light py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <p>&copy; 2023 My Website</p>
+                    </div>
+                    <div class="col-md-6 text-md-end">
+                        <p>Powered by Bootstrap</p>
                     </div>
                 </div>
-            </footer>
-        </section>
+            </div>
+        </footer>
 
 
     </body>
