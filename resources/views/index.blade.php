@@ -2,6 +2,7 @@
 @section('title','HomePage')
 
 @section('content')
+
 <!-- Registration form and image -->
 <div class="container mt-5">
     <div class="row">
